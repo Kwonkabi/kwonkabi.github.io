@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Kabi Kwon"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/kabi_memoji.jpg"
   bio              : "카비의 개발 블로그입니다."
   location         : "Somewhere in Korea"
   email            : seohyung0929@gmail.com
