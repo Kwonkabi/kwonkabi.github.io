@@ -105,7 +105,7 @@ author:
   name             : "Kabi Kwon"
   avatar           : "/assets/images/kabi_memoji.jpg"
   bio              : "카비의 개발 블로그입니다."
-  location         : "Somewhere in Korea"
+  location         : "South Korea"
   email            : 
   links:
     - label: "Email"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/kwonkabi"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -147,7 +147,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/kabi_127.0.0.1"
 
 
 # Reading Files
