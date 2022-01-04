@@ -106,11 +106,11 @@ author:
   avatar           : "/assets/images/kabi_memoji.jpg"
   bio              : "카비의 개발 블로그입니다."
   location         : "Somewhere in Korea"
-  email            : seohyung0929@gmail.com
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:seohyung0929@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,10 +122,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kwonkabi"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/kabi_127.0.0.1"
 
 # Site Footer
 footer:
