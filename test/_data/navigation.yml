@@ -15,6 +15,14 @@ main:
   - title: "Extra Menu Item Long Title"
     url: /
 
+docs:
+  - title: "Parent Page"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
