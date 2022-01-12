@@ -8,9 +8,9 @@ main:
   url: /search/
 
 docs:
-  - title: "Parent Page"
+  - title: ""
     children:
-      - title: "Category"
+      - title: ""
         url: /categories/
       - title: "Tag"
         url: /tags/
