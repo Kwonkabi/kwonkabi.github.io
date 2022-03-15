@@ -1,6 +1,6 @@
 ---
 title: "React의 핵심, Component"
-excerpt: ""
+excerpt: "컴포넌트에 대해 이해하고, state에 대해 배워보자!"
 
 categories: coding
 tags: [Component, 컴포넌트, React]
@@ -60,12 +60,12 @@ export default New
 #### 4.1. React-hooks의 종류
 React-Hooks의 종류에는 useEffect, useState, useMemo, useCallback, useRef, useContext 등이 있다. 그 중 대표적인 것이 useEffect와 useState이다. (이 포스팅에서는 다양한 hooks에 대해선 다루지 않을 것이고, hooks 덕분에 함수형 컴포넌트를 이용할 수 있어 편해졌다는 정도만 이해하고 넘어간다.)
 
-#### 4.1.1. State
+#### 4.2. State
 React-Hooks에 대해 알아보기 전에 알아야 할 개념이 하나 있다. 바로 'State'이다. **state는 컴포넌트에서 사용하는 변수**이다. (자바스크립트에서 데이터를 담기 위해 변수를 사용하는 것과 같다.) 그리고, **setState**는 컴포넌트에서 사용하는 **변수를 바꿔주는 기능**이며, **useState**는 컴포넌트에서 사용하는 **변수를 만들어주는 기능**이다. 
-*state, setState, useState는 1)회원가입, 게시물 작성 내용 등을 서버 컴퓨터에 전송하기 위해 변수에 담아둘 때, 2)작성한 내용을 검증하고, 잘못된 부분을 빨간색으로 표기할 때 사용한다!(4.1.3.과 4.1.4.에서 실습할 것이다.)
+*state, setState, useState는 1)회원가입, 게시물 작성 내용 등을 서버 컴퓨터에 전송하기 위해 변수에 담아둘 때, 2)작성한 내용을 검증하고, 잘못된 부분을 빨간색으로 표기할 때 사용한다!(4.2.2.과 4.2.3.에서 실습할 것이다.)
 
 
-#### 4.1.2. let? const? state!
+##### 4.2.1. let? const? state!
 - 리액트 컴포넌트에서 변수를 만들고 바꿔보자!
 
 ```javascript
@@ -89,7 +89,7 @@ const [classmate, setClassmate] = useState("철수")
 setClassmate("영희")     // classmate 가 영희로 바뀝니다.
 ```
 
-이것만 보면, 왜 굳이 간단한 let을 두고 state를 쓰나 싶다. 그러나 다음을 보면 state를 써야 하는 이유를 알 수 있다. 만약 우리가 좋아요 버튼을 누를 때마다 숫자가 올라간다고 해보자. **만약, 변수 let이나 상수 const를 사용하여 좋아요를 그렸다면 데이터는 변경되지만 화면에는 반영되지 않을 것이다.** 자바스크립트에서는 document.getElementById("h1").innerText를 사용했을 것이다...
+이것만 보면, 왜 굳이 간단한 let을 두고 state를 쓰나 싶다. 그러나 다음을 보면 state를 써야 하는 이유를 알 수 있다. 만약 우리가 좋아요 버튼을 누를 때마다 숫자가 올라간다고 해보자. **만약, 변수 let이나 상수 const를 사용하여 좋아요를 그렸다면 데이터는 변경되지만 화면에는 반영되지 않을 것이다.** (자바스크립트에서는 무려 document.getElementById("h1").innerText를 사용했을 것이다...)
 
 ```javascript
 // let으로 count 예제 실험해보기
@@ -138,7 +138,7 @@ export default New
 
 
 
-#### 4.1.3. useState 실습 1: 서버컴퓨터에 전송하기 위해 state에 담아두기
+##### 4.2.2. useState 실습 1: 서버컴퓨터에 전송하기 위해 state에 담아두기
 
 ```javascript
 import { useState } from "react"
@@ -171,7 +171,7 @@ function Login () {
 export default Login
 ```
 
-#### 4.1.4. useState 실습 2: 작성한 내용을 검증하고 잘못된 부분을 빨간색으로 표기하기
+##### 4.2.3. useState 실습 2: 작성한 내용을 검증하고 잘못된 부분을 빨간색으로 표기하기
 
 ```javascript
 import { useState } from "react"
