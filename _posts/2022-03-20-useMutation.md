@@ -1,9 +1,9 @@
 ---
-title: "apollo-client로 graphql 뮤테이션 실행하기"
+title: "apollo-client로 graphql 뮤테이션 실행하기 & try~catch 적용하기"
 excerpt: "(내가 너무너무 헷갈려서 적는 포스팅ㅜ)"
 
-categories: cs
-tags: [graphQL, apollo-client, mutation]
+categories: coding
+tags: [graphQL, apollo-client, mutation, useMutation, try, catch]
 
 toc: true
 toc_sticky: true
@@ -13,7 +13,7 @@ sidebar: false
 ---
 
 
-### apollo-client로 graphql 뮤테이션 실행
+### 1. apollo-client로 graphql 뮤테이션 실행하기
 ~
 0. apollo-client가 설치되었는지 _app.js에 들어가서 확인한다.
 ![apollo_client](../assets/images/use_mutation/apollo-client.png)
@@ -84,3 +84,43 @@ function handleClickPost(){
 graphql에 들어가는 데이터는 최종적으로 등록하기 버튼을 눌렀을 때 실행되는 handleClickPost 함수의 mutation에서 넣어주어야 한다.
 
 7. 이렇게 해도 계속 똑같은 데이터만 들어가게 되는데, 들어가는 데이터를 고정된 값 대신 state로 변경하여 넣으면 최종적인 코드가 완성된닷!
+
+
+#### 1.1. graphql 뮤테이션에 try~catch 적용하기
+
+위와 같이 뮤테이션을 실행한다고 해도, 항상 성공하는 것은 아니다. 백엔드 컴퓨터에 문제가 있을 수도 잇고, 내가 수정하려는 게시물이 삭제되어 문제가 발생할 수도 있다. 
+
+따라서, 우리는 성공에 대한 처리와 실패에 대한 처리를 나누어 작업해야 한다!!
+
+```javascript
+try {
+		**await** createBoard({
+				variables: {
+						aaa: "훈이",
+						bbb: "1234",
+						ccc: "안녕하세요 훈이에요",
+						ddd: "반갑습니다"
+				}
+		})
+
+} catch(error) {
+		alert(error.message)     // 경고창(실패했습니다.)  ==>  백엔드 개발자가 보내주는 실패 메시지
+} finally {
+	// 성공, 실패 여부와 상관없이 무조건 마지막에 실행되는 부분
+	// 필요없다면 생략 가능
+}
+```
+
+※ 객체의 key값과 value값이 같으면 각각 표기하지 않고 한 번만 표기하는데, 이것을 shorthand-property라 한다.
+
+```javascript
+const result = await createUseditem({
+	variables: {
+		createUseditemInput: {
+			name         // name: myName
+			remarks      // remarks: myRemarks
+			contents    // contents: myContents
+			},
+		},
+});
+```
