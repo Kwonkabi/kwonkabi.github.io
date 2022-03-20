@@ -19,19 +19,19 @@ sidebar: false
 
 - 동기 실행: (자바스크립트는 동기 실행 방식을 사용한다.) 서버 컴퓨터의 작업이 끝날 때까지 기다린 후에 작업을 실행하는 통신이다. 등록 요청을 하게 되면 등록 과정이 모두 끝나야 게시글을 불러오는 과정이 실행되기 때문에 위와 같은 문제가 발생하지 않는다. 그림으로 보면 다음과 같다;
 
-![sync_async]('../assets/images/sync_async/sync_async.jpeg')
+![sync_async](../assets/images/sync_async/sync_async.jpeg)
 
 #### 1.1. REST-API에서 동기/비동기 실행하기
 
 ##### 1.1.1. 비동기 통신
 
-`javascript
+```javascript
 
 function 함수명() {
   const data = axios.get('https://koreanjson.com/posts/1')
   console.log(data) // Promise
 }
-`
+```
 
 REST-API에서는 데이터의 요청과 응답을 위해 axios를 사용하여 비동기 통신을 사용한다. 이때 코드는 상단에서부터 실행되면서, 백엔드 컴퓨터에 데이터를 요청하고, 데이터를 가져와서 응답을 준다.
 
@@ -46,13 +46,13 @@ REST-API에서는 데이터의 요청과 응답을 위해 axios를 사용하여 
 
 #### 1.1.2. 동기 통신 (async/await)
 
-`javascript
+```javascript
 
 async function 함수명() {
   const data = await axios.get('https://koreanjson.com/posts/1')
 	console.log(data) // {id: 1, title: "정당의 목적이나 활동이 ...", ...}
 }
-`
+```
 
 비동기 실행 방식에서 동기 실행 방식으로 변경해주기 위해서는 **async/await**이 꼭 필요하다. 위의 코드처럼 작성해주면 await이 작성된 부분의 코드 실행이 완료되기 전까지는, 하단의 코드로 실행이 넘어가지 않는다. 완전히 완료된 후에 완성된 데이터를 받아오기 때문에, 해당 코드를 실행하면 콘솔창에 불러오고자 했던 데이터가 잘 보여지는 걸 알 수 있다.
 
@@ -62,12 +62,12 @@ Reac에서 DOM에 별도의 노드를 추가하지 않고, 여러 자식을 그�
 
 ### 1.2. GRAPHQL에서 동기/비동기 사용하기
 
-※ [**'apollo-client로 graphql 뮤테이션 실행하기'**]('https://kwonkabi.github.io/cs/useMutation/') 편 참고
+※ [**'apollo-client로 graphql 뮤테이션 실행하기'**](https://kwonkabi.github.io/cs/useMutation/) 편 참고
 
 rest-API 또는 graphql-API를 사용해서 해야 할 일은 요청에 대한 응답으로 받은 json 객체를 변수에 담아서 사용하는 것이다. 응답 결과를 변수에 담아서 사용하려면, 통신이 완료될 때까지 기다려야 함다. **async/await**를 활용해서 기다려보자. 
 
 
-`javascript
+```javascript
 
 async function handleClickPost() {
   const result = await createBoard({
@@ -84,16 +84,16 @@ async function handleClickPost() {
 return (
   <button onClick={handleClickPost}>게시물 등록</button>
 )
-`
+```
 
 화살표 함수를 사용할 때에는 async의 위치를 () 앞에 입력해야 한다.
 
-`javascript
+```javascript
 
 const 함수명 = async () => {
   await // 서버에 요청하는 코드
 }
-`
+```
 
 
 ### 2. 호이스팅(Hoisting)
@@ -104,7 +104,7 @@ const 함수명 = async () => {
 
 - 함수의 호이스팅
 
-`javascript
+```javascript
 
 catName('클로이')
 
@@ -112,18 +112,18 @@ function catName(name) {
 	console.log('제 고양이의 이름은' + name + '입니다')'
 }
 // '제 고양이의 이름은 클로이입니다'
-`
+```
 
 함수 표현식과 화살표 함수는 이러한 문제가 일어나지 않는다. 둘 중 더 간단한 화살표 함수가 선호된다. 
 
 - 변수 선언 방식의 호이스팅
 
-`javascript
+```javascript
 console.log(num); // 호이스팅한 var 선언으로 인해 undefined 출력
 var num; // 선언
 num = 6;  // 초기화
-`
+```
 var은 변수 선언 시, 초기화를 제외한 선언만 호이스팅한다. 변수를 먼저 사용하고, 그후에 선언 및 초기화가 나타나면, 사용하는 시점의 변수는 기본 초기화 상태인 undefined이다. 
 
-![hoisting]('../../../assets/images/sync_async/hoisting.jpeg')
+![hoisting](../../../assets/images/sync_async/hoisting.jpeg)
 let과 const로 선언한 변수도 호이스팅이 되긴 하지만, var과는 달리 undefined로 변수를 초기화하지 않기 때문에, 변수 선언 전에 먼저 사용하게 되면 오류가 발생한다. (오류가 발생해서 문제를 막는 게 좋은 것이다.. 에러를 너무 미워하지 말자!)
