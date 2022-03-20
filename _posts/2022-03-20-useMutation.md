@@ -24,12 +24,14 @@ sidebar: false
 2. 제대로 작동한다면, graphql을 실행하려는 페이지 상단에서 apollo-client 도구들을 불러온다.
 
 `javascript
+
 import { useMutation, gql } from '@apollo/client'
 `
 
 3. javascript 입력 부분에 playground의 코드를 복사하여 gql`` 안에 붙여넣어 변수 혹은 상수를 만들어준다.
 
 `javascript
+
 // graphql 코드 생성
 const CREATE_BOARD = gql`
 	mutation {
@@ -48,6 +50,7 @@ const CREATE_BOARD = gql`
 4. 위에서 만든 gql 변수/상수를 활용하여 useMutation을 만들어준다. (※ createBoard는 mutation을 실행하기 위한 이름으로, 아무 이름이나 붙여도 무관하다.)
 
 `javascript
+
 // mutation 코드 생성
 const [createBoard] = useMutation(CREATE_BOARD)
 `
@@ -55,6 +58,7 @@ const [createBoard] = useMutation(CREATE_BOARD)
 5. 게시물 등록 버튼을 클릭했을 때 실행되는 함수에서 mutation 코드를 실행해준다.
 
 `javascript
+
 function handleClickPost(){
 
 	createBoard({
