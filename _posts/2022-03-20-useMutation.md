@@ -76,4 +76,3 @@ function handleClickPost(){
 graphql에 들어가는 데이터는 최종적으로 등록하기 버튼을 눌렀을 때 실행되는 handleClickPost 함수의 mutation에서 넣어주어야 한다.
 
 7. 이렇게 해도 계속 똑같은 데이터만 들어가게 되는데, 들어가는 데이터를 고정된 값 대신 state로 변경하여 넣으면 최종적인 코드가 완성된닷!
-
