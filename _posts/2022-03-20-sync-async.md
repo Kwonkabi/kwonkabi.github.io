@@ -19,13 +19,14 @@ sidebar: false
 
 - 동기 실행: (자바스크립트는 동기 실행 방식을 사용한다.) 서버 컴퓨터의 작업이 끝날 때까지 기다린 후에 작업을 실행하는 통신이다. 등록 요청을 하게 되면 등록 과정이 모두 끝나야 게시글을 불러오는 과정이 실행되기 때문에 위와 같은 문제가 발생하지 않는다. 그림으로 보면 다음과 같다;
 
-![sync_async](../assets/images/sync_async/sync_async.jpeg)
+![sync_async]('../assets/images/sync_async/sync_async.jpeg')
 
 #### 1.1. REST-API에서 동기/비동기 실행하기
 
 ##### 1.1.1. 비동기 통신
 
 `javascript
+
 function 함수명() {
   const data = axios.get('https://koreanjson.com/posts/1')
   console.log(data) // Promise
@@ -46,6 +47,7 @@ REST-API에서는 데이터의 요청과 응답을 위해 axios를 사용하여 
 #### 1.1.2. 동기 통신 (async/await)
 
 `javascript
+
 async function 함수명() {
   const data = await axios.get('https://koreanjson.com/posts/1')
 	console.log(data) // {id: 1, title: "정당의 목적이나 활동이 ...", ...}
@@ -60,12 +62,13 @@ Reac에서 DOM에 별도의 노드를 추가하지 않고, 여러 자식을 그�
 
 ### 1.2. GRAPHQL에서 동기/비동기 사용하기
 
-※ [**'apollo-client로 graphql 뮤테이션 실행하기'**]() 편 참고
+※ [**'apollo-client로 graphql 뮤테이션 실행하기'**]('https://kwonkabi.github.io/cs/useMutation/') 편 참고
 
 rest-API 또는 graphql-API를 사용해서 해야 할 일은 요청에 대한 응답으로 받은 json 객체를 변수에 담아서 사용하는 것이다. 응답 결과를 변수에 담아서 사용하려면, 통신이 완료될 때까지 기다려야 함다. **async/await**를 활용해서 기다려보자. 
 
 
 `javascript
+
 async function handleClickPost() {
   const result = await createBoard({
     variables: {
@@ -86,6 +89,7 @@ return (
 화살표 함수를 사용할 때에는 async의 위치를 () 앞에 입력해야 한다.
 
 `javascript
+
 const 함수명 = async () => {
   await // 서버에 요청하는 코드
 }
@@ -101,6 +105,7 @@ const 함수명 = async () => {
 - 함수의 호이스팅
 
 `javascript
+
 catName('클로이')
 
 function catName(name) {
