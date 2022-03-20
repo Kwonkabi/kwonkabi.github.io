@@ -16,10 +16,10 @@ sidebar: false
 ### apollo-client로 graphql 뮤테이션 실행
 ~
 0. apollo-client가 설치되었는지 _app.js에 들어가서 확인한다.
-![apollo_client](../assets/images/use_mutation/apollo-client.png)
+![apollo_client]('../assets/images/use_mutation/apollo-client.png')
 
 1. 뮤테이션을 사용하기 전, playground에서 내가 사용하려는 mutation이 제대로 작동하는지 확인한다.
-![playground](../assets/images/use_mutation/playground.png)
+![playground]('../assets/images/use_mutation/playground.png')
 
 2. 제대로 작동한다면, graphql을 실행하려는 페이지 상단에서 apollo-client 도구들을 불러온다.
 

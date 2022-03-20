@@ -60,7 +60,7 @@ Reac에서 DOM에 별도의 노드를 추가하지 않고, 여러 자식을 그�
 
 ### 1.2. GRAPHQL에서 동기/비동기 사용하기
 
-※ 'apollo-client로 graphql 뮤테이션 실행하기' 편 참고
+※ [**'apollo-client로 graphql 뮤테이션 실행하기'**]() 편 참고
 
 rest-API 또는 graphql-API를 사용해서 해야 할 일은 요청에 대한 응답으로 받은 json 객체를 변수에 담아서 사용하는 것이다. 응답 결과를 변수에 담아서 사용하려면, 통신이 완료될 때까지 기다려야 함다. **async/await**를 활용해서 기다려보자. 
 
