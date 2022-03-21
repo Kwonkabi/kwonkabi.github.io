@@ -19,7 +19,7 @@ sidebar: false
 
 - 동기 실행: (자바스크립트는 동기 실행 방식을 사용한다.) 서버 컴퓨터의 작업이 끝날 때까지 기다린 후에 작업을 실행하는 통신이다. 등록 요청을 하게 되면 등록 과정이 모두 끝나야 게시글을 불러오는 과정이 실행되기 때문에 위와 같은 문제가 발생하지 않는다. 그림으로 보면 다음과 같다;
 
-![sync_async](../assets/images/sync_async/sync_async.jpeg)
+![sync_async](\assets/images/sync_async/sync_async.jpeg)
 
 #### 1.1. REST-API에서 동기/비동기 실행하기
 
@@ -111,6 +111,7 @@ catName('클로이')
 function catName(name) {
 	console.log('제 고양이의 이름은' + name + '입니다')'
 }
+
 // '제 고양이의 이름은 클로이입니다'
 ```
 
@@ -125,5 +126,5 @@ num = 6;  // 초기화
 ```
 var은 변수 선언 시, 초기화를 제외한 선언만 호이스팅한다. 변수를 먼저 사용하고, 그후에 선언 및 초기화가 나타나면, 사용하는 시점의 변수는 기본 초기화 상태인 undefined이다. 
 
-![hoisting](../../../assets/images/sync_async/hoisting.jpeg)
+![hoisting](\assets/images/sync_async/hoisting.jpeg)
 let과 const로 선언한 변수도 호이스팅이 되긴 하지만, var과는 달리 undefined로 변수를 초기화하지 않기 때문에, 변수 선언 전에 먼저 사용하게 되면 오류가 발생한다. (오류가 발생해서 문제를 막는 게 좋은 것이다.. 에러를 너무 미워하지 말자!)
