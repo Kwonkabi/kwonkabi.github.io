@@ -17,11 +17,11 @@ sidebar: false
 프로젝트를 만들 때 코드가 100줄 이상 넘어간다면 가독성이 떨어진다. 그래서 하나의 파일을 여러 개로 분리해서 사용한다. 폴더를 나눠서 사용하는데, 이것을 폴더 구조, 혹은 '패턴'이라 부른다. 실무에서 사용하는 패턴 중 리액트에서 인기 있는 것 중 하나가 바로 **컨테이너와 프레젠터** 패턴이다.
 
 바닐라 자바스크립트를 사용할 때는 html, css, js를 모두 따로 사용했었다. 그러다가 리액트를 사용하면서는 모두 자바스크립트 파일로 만들었다. 이걸 이제 다시 로직(js), 화면(jsx), 스타일(css-in-js)로 나누어서 저장하고 필요한 부분에 찾아가서 보게 만들 것이다.
-![pattern](../assets/images/pattern/pattern.png)
+![pattern](\assets/images/pattern/pattern.png)
 이미지에 보이는 BoardWrite.container는 이름일 뿐이라 꼭 저 형식을 지켜야 하는 것은 아니다. (그치만 가장 깔끔)
 
 container 파일에는 기존에 return 위쪽에 있던 js 코드를, presenter 파일에는 return() 안에 있던 html 내용을 담아준다. 그리고 export와 import를 이용해 연결해준다.
-![container_presenter](../assets/images/pattern/container_presenter.png)
+![container_presenter](\assets/images/pattern/container_presenter.png)
 
 이때, import해주는(불러오는) 부분이 **"부모 컴포넌트"**이고, export하는(불려가는) 부분이 **"자식 컴포넌트"**이다.
 
@@ -34,7 +34,7 @@ container 파일에는 기존에 return 위쪽에 있던 js 코드를, presenter
 
 **Props**는 위의 상황처럼, 컴포넌트가 두 개로 나뉘었을 때 데이터와 기능의 연결고리가 끊어지는 문제를 해결해준다. Props는 부모가 가지고 있는 변수나 함수를 자식에게 물려주는 것이다. prop을 만드는 방법은 다음과 같다:
 
-![component](../assets/images/pattern/prop.png)
+![component](\assets/images/pattern/prop.png)
 
 1. 키, 밸류가 있는 props 객체를 만든다
 2. Presenter에 있는 곳으로 props를 보낸다
@@ -44,16 +44,16 @@ container 파일에는 기존에 return 위쪽에 있던 js 코드를, presenter
 
 container와 presenter, 그리고 props가 어떻게 사용되는지 다음을 보면 이해하기 좋다.
 
-![review](../assets/images/pattern/container_presenter.png)
+![review](\assets/images/pattern/review.jpg)
 
 
 Props의 두 번째 특성은, **'상대적'**이라는 것이다. 예를 들면, presenter에서도 기존 css 파일인 emotion을 불러오게 되는데, 이때는 presenter가 부모가 되기 때문에 props를 물려줄 수 있게 된다.
 
-![emotion](../assets/images/pattern/emotion.jpg)
+![emotion](\assets/images/pattern/emotion.jpg)
 
 이때 위의 이미지처럼 두 개만 import 하는 것이 아니라 만약 1억개라면 presenter의 코드가 매우 지저분할 것이다. 그래서 모두모두 import해오고 싶다면, *과 as를 사용하면 된다.
 
-![import_all](../assets/images/pattern/import_all.png)
+![import_all](\assets/images/pattern/import_all.png)
 
 
 ```javascript
