@@ -33,7 +33,7 @@ hello = "12345"
 
 
 ### 2. 타입스크립트의 사용 방법
-![**타입스크립트 설치 방법**](https://www.typescriptlang.org/download)
+[**타입스크립트 설치 방법**](https://www.typescriptlang.org/download)
 
 
 #### 2.1. 타입스크립트 확장자
