@@ -1,9 +1,9 @@
 ---
 title: "얕은 라우팅(Shallow Routing)"
-excerpt: ""
+excerpt: "Next.js에서의 얕은 라우팅에 대해 알아보자!"
 
 categories: coding
-tags: [react, typescript, component, ref, createRef, useRef]
+tags: [Next.js, react, shallow-routing]
 
 toc: true
 toc_sticky: true
@@ -42,7 +42,7 @@ export default Page
 **shallow: true**로 설정해주면 URl이 `/?counter=10`로 업데이트되지만 페이지는 바뀌지 않고 라우팅 상태만 변경된다.
 
 
-#### 1.1. 얕은 라우팅 예시: Choose Your Own Adventure
+#### 1.1. 얕은 라우팅 예시: Choose Your Own Adventure APP
 
 이해가 잘 안 돼서 얕은 라우팅이 적용된 예시를 찾아봤다. ['Choose Your Own Adventure'](https://next-adventure.netlify.app/)이라는 앱이다. 얕은 라우팅을 사용해서, 매번 데이터베이스에 쿼리를 요청하지 않고도 이야기를 전개해나간다. 라우팅 관련 코드는 다음과 같다.
 
