@@ -5,7 +5,7 @@ excerpt: "로그인 기능을 구현하기 전에 쿠키와 웹스토리지, 세
 categories: coding
 tags: [cookie, web storage, local storage, session storage, session, token, JWT]
 
-toc: true
+toc: false
 toc_sticky: true
 
 author_profile: true
