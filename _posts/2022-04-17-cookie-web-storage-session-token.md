@@ -1,5 +1,5 @@
 ---
-title: "쿠키와 로컬 스토리지와 세션 스토리지, 그리고 세션과 토큰"
+title: "쿠키와 웹 스토리지, 그리고 세션과 토큰"
 excerpt: "로그인 기능을 구현하기 전에 쿠키와 웹스토리지, 세션과 토큰에 대해 이해하자!"
 
 categories: coding
@@ -12,7 +12,7 @@ author_profile: true
 sidebar: false
 ---
 
-※ 다음 영상들을 참고했어요!:
+※ 다음 영상들을 참고했어요!
 - [**세션 vs 토큰 vs 쿠키? 기초개념 잡아드림. 10분 순삭!**](https://www.youtube.com/watch?v=tosLBcAX1vk&ab_channel=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders)
 - [**[10분 테코톡] 🦄 디토의 웹스토리지 & 쿠키**](https://www.youtube.com/watch?v=-4ZsGy1LOiE&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
 
