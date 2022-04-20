@@ -1,6 +1,6 @@
 ---
 title: "재귀 함수(recursive function)"
-excerpt: ""
+excerpt: "재귀 함수 이해하기!"
 
 categories: coding
 tags: [recursive function]
