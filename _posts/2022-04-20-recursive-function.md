@@ -40,7 +40,12 @@ function factorial(n) {
 
 n이 4일 때, 4는 1이나 0이 아니기 때문에 else로 내려가고, `4 * factorial(3)`이 된다. 그럼 3은 또 1이나 0이 아니기 때문에 `3 * factorial(2)`가 된다. 2는 1이나 0이 아니기 때문에 `2 * factorial(1)`이 된다. 결국 n이 1이 되기 때문에 1을 리턴하고 함수가 종료된다. 거꾸로 올라가보면, 결국 24가 나온다.
 
+```javascript
+
 `factorial(2)` === `2 * factorial(1)` === `2 * 1` => 2
 `factorial(3)` === `3 * factorial(2)` === `3 * 2` => 6
 `fatorial(4)` === `4 * factorial(3)` === `4 * 6` => 24
 
+```
+
+※ 참고 영상: [**Best Javascript Recursion Explanation on YouTube**](https://www.youtube.com/watch?v=LteNqj4DFD8&ab_channel=DevSage)
