@@ -19,6 +19,7 @@ sidebar: false
 
 ```javascript
 function processDoll(doll) {
+  // 1. 종료 조건
     if ( 인형 안에서 초콜릿을 찾으면 ) return "냠냠냠!";
   // 3. 조건을 추가할 수도 있다
     else if (인형이 더 이상 없으면) return "여기는 초콜릿 없음!";
