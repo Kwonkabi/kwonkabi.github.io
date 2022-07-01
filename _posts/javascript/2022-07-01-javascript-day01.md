@@ -1,9 +1,9 @@
 ---
-title: "꽉잡아스크립트 "
-excerpt: "자바스크립트 스터디, '꽉잡아스터디' 1일차!"
+title: "javascript_study_day01"
+excerpt: "꽉잡아스크립트 1일차!"
 
-categories: 꽉잡아스크립트
-tags: [javascript]
+categories: javascript_study
+tags: [javascript, variable, expression, type, operator]
 
 toc: true
 toc_sticky: true
