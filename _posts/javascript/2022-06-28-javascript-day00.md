@@ -13,7 +13,6 @@ sidebar: false
 ---
 
 이름하여.. "**꽉잡아스크립트**"
-
 자바스크립트.. 꽉 잡고 말거야! 🔥
 
 ![snowmen](/assets/images/js_study/snowmen.jpeg)
@@ -22,7 +21,7 @@ sidebar: false
 
 - **모던 자바스크립트 Deep Dive 스터디**
 - 스터디 멤버: 천두인, 조현민, 권서형, 김소현
-- 깃헙 레포: https://github.com/kwonkabi/javascript-study
+- 깃헙 레포: [https://github.com/kwonkabi/javascript-study](https://github.com/kwonkabi/javascript-study)
 - 나눠서 공부하고, 아는 것은 공유, 모르는 것은 질문
 - 이해 안 되는 부분은 [인프런 수업 영상](https://www.inflearn.com/course/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C?utm_source=facebook_display#curriculum) 참고
 
