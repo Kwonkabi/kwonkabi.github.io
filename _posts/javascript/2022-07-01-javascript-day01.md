@@ -91,12 +91,7 @@ string = "큰따옴표로 감싼 문자열 내의 '작은따옴표'";
 
 - 일반 문자열 내에서 줄바꿈 등의 공백을 표현하려면 백슬래시(\)로 시작하는 이스케이프 시퀀스(escape sequence)를 사용해야 한다.
   ※ 대표적인 이스케이프 시퀀스와 의미
-  | \n | 줄바꿈 |
-  | \t | 탭 |
-  | \uXXXX | 유니코드, e.g., ‘\u0041’는 ‘A’ |
-  | \' | 작은따옴표 |
-  | \" | 큰따옴표 |
-  | \\ | 백슬래시 |
+  ![escape_sequence](/assets/images/js_study/escape_sequence.png)
 
 #### 6.3. 템플릿 리터럴
 
@@ -318,6 +313,6 @@ int num;
 
 ### 07장. 연산자
 
-### 즐거운 스터디!
+### 📸 즐거운 스터디!
 
 ![day01](/assets/images/js_study/day01.jpeg)
