@@ -16,7 +16,7 @@ sidebar: false
 
 자바스크립트.. 꽉 잡고 말거야! 🔥
 
-[!snowmen](/assets/images/js_study/snowmen.jpeg)
+![snowmen](/assets/images/js_study/snowmen.jpeg)
 
 ### 1. 스터디 소개
 

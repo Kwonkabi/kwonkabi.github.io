@@ -320,4 +320,4 @@ int num;
 
 ### 즐거운 스터디!
 
-[!day01](/assets/images/js_study/day01.jpeg)
+![day01](/assets/images/js_study/day01.jpeg)
