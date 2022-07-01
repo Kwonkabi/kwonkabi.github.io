@@ -1,6 +1,6 @@
 ---
 title: "javascript_study_day01"
-excerpt: "꽉잡아스크립트 1일차!"
+excerpt: "꽉잡아스크립트 1일차: 변수, 표현식과 문, 데이터 타입, 연산자"
 
 categories: javascript_study
 tags: [javascript, variable, expression, type, operator]
