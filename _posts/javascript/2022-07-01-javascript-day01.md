@@ -104,8 +104,8 @@ string = "큰따옴표로 감싼 문자열 내의 '작은따옴표'";
 
 - 큰/작은따옴표 대신 백틱(`)을 사용한다.
 
-- 템플릿 리터럴은 런타임*에 일반 문자열로 변환되어 처리된다.
-  (*런타임: [컴퓨터 과학](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)에서 [컴퓨터 프로그램](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)이 실행되고 있는 동안의 동작)
+- 템플릿 리터럴은 런타임에 일반 문자열로 변환되어 처리된다.
+  (런타임: [컴퓨터 과학](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)에서 [컴퓨터 프로그램](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)이 실행되고 있는 동안의 동작)
 
 ##### 6.3.1. 멀티라인 문자열
 
@@ -175,7 +175,7 @@ console.log(foo); // undefined
 - 함수가 유효한 값을 반환할 수 없는 경우 명시적으로 null을 반환하기도 한다.
   e.g., document.querySelector 메서드가 조건에 부합하는 HTML 요소를 검색할 수 없는 경우
 
-  ```HTML
+  ```javascript
   <!DOCTYPE html>
   <html>
     <body>
@@ -264,7 +264,7 @@ console.log(obj[key]); // value
 
 - 정적 타입(static/strong type) 언어는 변수를 선언할 때, 변수에 할당할 수 있는 데이터 타입을 사전에 선언해야 한다. (C, C++, 자바, 코틀린, 고, 하스켈, 러스트, 스칼라 등)
 
-```C
+```javascript
 // C의 경우:
 
 // c 변수에는 1바이트 정수 타입의 값만 할당 가능
@@ -317,3 +317,7 @@ int num;
 - 변수명은 변수의 목적이나 의미를 파악할 수 있도록 명시적으로 작성
 
 ### 07장. 연산자
+
+### 즐거운 스터디!
+
+[!day01](/assets/images/js_study/day01.jpeg)
