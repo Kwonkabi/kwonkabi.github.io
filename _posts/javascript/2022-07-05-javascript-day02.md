@@ -132,9 +132,7 @@ person.address = "Seoul";
 console.log(person); // {name: "Kim", address: "Seoul"}
 ```
 
-![](../../assets/images/js_study/11.2.1.png)
-
-![](../../assets/images/js_study/11.2.1_1.png)
+| ![](../../assets/images/js_study/11.2.1.png) | ![](../../assets/images/js_study/11.2.1_1.png) |
 
 - 객체가 변경 가능한 이유
   객체를 변경할 때마다 원시 값처럼 이전 값을 복사해서 새로 생성한다면 명확하고 신뢰성이 확보되겠지만, 객체는 크기를 사전에 알 수 없고, 크기가 일정하지도 않으며, 프로퍼티 값에 제한이 없어서(객체일 수도 있어서) 효율적 소비가 어렵고 성능이 나빠진다.
