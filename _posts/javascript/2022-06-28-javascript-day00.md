@@ -13,6 +13,7 @@ sidebar: false
 ---
 
 이름하여.. "**꽉잡아스크립트**"
+
 자바스크립트.. 꽉 잡고 말거야! 🔥
 
 ![snowmen](/assets/images/js_study/snowmen.jpeg)
