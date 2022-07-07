@@ -1,5 +1,5 @@
 ---
-title: "[UX] UX∙UI 레벨 테스트"
+title: "[UX] 아보카도 UX∙UI 레벨 테스트"
 excerpt: "UX∙UI 디자인 문제 몇 개나 맞으려나?"
 
 categories: UX
