@@ -16,7 +16,7 @@ minimal_mistakes_skin: "contrast" # "default" "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale: "ko-KR"
-title: "kwonkabiLog"
+title: "kabiLog"
 title_separator: "|"
 subtitle: "I can do this all day."
 name: "kwonkabi"
@@ -32,7 +32,7 @@ words_per_minute: 200
 comments:
   provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: "kwonkabiLog"
+    shortname: "kabiLog"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name: "Kabi Kwon"
+  name: "kwonkabi"
   avatar: "/assets/images/kabi_memoji.jpg"
-  bio: "후론트라라 후론트라라"
+  bio: "후론트라라~ 후론트라라~"
   location: "South Korea"
   email:
   links:
