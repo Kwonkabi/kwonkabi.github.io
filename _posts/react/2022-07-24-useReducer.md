@@ -24,9 +24,7 @@ sidebar: false
 ### 1. reducer, dispatch, action
 
 컴포넌트의 스테이트를 생성하고 관리하기 위해서 지금까지 useState 훅을 사용해왔다. 리액트에서 스테이트 관리를 위한 또 다른 훅이 있다. useReducer 훅이다. useReducer도 스테이트를 생성하고 관리할 수 있게 하는 도구이다. 그렇다면 useReducer는 언제 사용하는 걸까?
-
 <br>
-
 다음과 같이 여러 개의 하위 값을 포함하는 복잡한 스테이트를 다룰 때 useState 대신 useReducer를 사용하면 더 편리하고 깔끔하게 코드를 작성할 수 있고 유지보수도 편해진다.
 
 ```js
@@ -713,3 +711,7 @@ const Student = ({ ACTION_TYPES, name, dispatch, id, isHere }) => {
 
 export default Student;
 ```
+
+---
+
+📌 별코딩 님의 [**React Hooks에 취한다 - useReducer 확실히 정리해드려요**](https://www.youtube.com/watch?v=tdORpiegLg0)를 참고했습니다!

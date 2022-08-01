@@ -334,3 +334,7 @@ props를 사용했을 때와 똑같이 작동하지만, Page 컴포넌트는 자
 <br>
 
 > context를 사용하면 위에서 아래로 데이터의 흐름인 리액트의 단방향 원칙에 위배되지도 않고, 중간 컴포넌트가 더럽혀지지 않으며, 중간에 데이터가 훼손될 위험이 없다.
+
+---
+
+📌 별코딩 님의 [**React Hooks에 취한다 - useContext + Context API**](https://www.youtube.com/watch?v=LwvXVEHS638)를 참고했습니다!

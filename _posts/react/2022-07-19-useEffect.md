@@ -292,3 +292,7 @@ export default Timer;
 ```
 
 그럼 Toggle Timer 버튼을 다시 눌러 showTimer state 값이 false로 변경되면 Timer 컴포넌트가 언마운트되고, 그때 Timer 컴포넌트의 useEffect 내부에서 clearInterval 함수가 실행되어 타이머가 종료된다!!
+
+---
+
+📌 별코딩 님의 [**React Hooks에 취한다 - useEffect 깔끔하게 마스터하기**](https://www.youtube.com/watch?v=kyodvzc5GHU)를 참고했습니다!

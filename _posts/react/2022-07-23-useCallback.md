@@ -401,3 +401,7 @@ const App = () => {
 
 export default App;
 ```
+
+---
+
+📌 별코딩 님의 [**React Hooks에 취한다 - useCallback 짱 쉬운 강의**](https://www.youtube.com/watch?v=XfUF9qLa3mU)를 참고했습니다!
