@@ -124,7 +124,11 @@ classmates.map((el) => {
 // [undefined, undefined, undefined]
 ```
 
+<br>
+
 ---
+
+<br>
 
 ### 2. Filter()
 
