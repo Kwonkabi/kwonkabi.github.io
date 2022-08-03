@@ -1,6 +1,6 @@
 ---
 title: "무한 스크롤"
-excerpt: ""
+excerpt: "페이지 처리의 또 다른 방식인 무한 스크롤을 사용해보자!"
 
 categories: react
 tags: [react, infinite-scroller]

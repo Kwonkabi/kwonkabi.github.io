@@ -1,6 +1,6 @@
 ---
-title: "스테이트 끌어올리기(Lifting State Up)"
-excerpt: ""
+title: "스테이트 끌어올리기"
+excerpt: "리액트는 하향식 단방향 데이터 흐름 원칙!!"
 
 categories: react
 tags: [react, state, lifting-state-up]
