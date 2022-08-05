@@ -2,8 +2,8 @@
 title: "비동기 통신과 조건부렌더링"
 excerpt: "원하는 조건에 맞게 내용을 보여주자!"
 
-categories: react
-tags: [react, conditional rendering]
+categories: javascript
+tags: [javascript, conditional rendering]
 
 toc: true
 toc_sticky: true

@@ -2,7 +2,7 @@
 title: "리페치쿼리 사용해보기!"
 excerpt: "for문을 대체할 자 누구인가"
 
-categories: react
+categories: network
 tags: [react, graphQL, refetchQueries]
 
 toc: true

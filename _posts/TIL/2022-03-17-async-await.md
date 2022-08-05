@@ -2,7 +2,7 @@
 title: "동기와 비동기 방식, async-await 활용하기"
 excerpt: "REST-API와 graphQL에서 동기/비동기 실행하기"
 
-categories: react
+categories: network
 tags: [sync, async, await]
 
 toc: true
