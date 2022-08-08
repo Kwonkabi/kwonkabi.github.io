@@ -112,5 +112,3 @@ debounce는 우리가 **두 번째 인자로 넣어준 시간 동안 아무 일�
 ### 시각적으로 디바운스 스로틀 이해하기
 
 ![System Design Basics: Debounce Vs Throttle](/assets/images/js/debounce_throttle.gif)
-
-[![System Design Basics: Debounce Vs Throttle](/assets/images/js/debounce_throttle.png)](https://youtube.com/clip/UgkxNKMo0FyIMxODd0o-0dPeuTfK4L6l9-7a)
