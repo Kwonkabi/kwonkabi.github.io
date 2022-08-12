@@ -162,4 +162,4 @@ const Title = styled.div`
 
 이렇게 사용할 때의 장점은, **태그에 의미를 부여할 수 있기 때문에 1. 태그만 봐도 결과물이 예상이 간다**는 점이고, **2. class명을 입력할 필요가 없어 코드의 길이가 짧아져** 읽기 쉬운 코드가 된다는 것이다. 한눈에 보아도 훨씬 편하게 사용할 수 있다는 걸 알 수 있다! (기존 css vs. css-in-js)
 
-![css-in-js](\assets/images/jsx/css-in-js.jpg)
+![css-in-js](/assets/images/jsx/css-in-js.jpg)

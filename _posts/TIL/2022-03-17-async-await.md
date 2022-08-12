@@ -20,7 +20,7 @@ http를 통해 요청과 응답을 하는데 문제가 발생할 수 있다. 예
 
 - **동기 실행**: _(자바스크립트는 동기 실행 방식을 사용한다.)_ 서버 컴퓨터의 작업이 끝날 때까지 기다린 후에 작업을 실행하는 통신이다. 등록 요청을 하게 되면 등록 과정이 모두 끝나야 게시글을 불러오는 과정이 실행되기 때문에 위와 같은 문제가 발생하지 않는다. 그림으로 보면 다음과 같다;
 
-![sync_async](\assets/images/sync_async/sync_async.jpeg)
+![sync_async](/assets/images/sync_async/sync_async.jpeg)
 
 <br>
 

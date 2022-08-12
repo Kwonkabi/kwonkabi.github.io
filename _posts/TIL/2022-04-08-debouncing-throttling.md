@@ -113,4 +113,4 @@ debounce는 우리가 **두 번째 인자로 넣어준 시간 동안 아무 일�
 
 ![System Design Basics: Debounce Vs Throttle](/assets/images/js/debounce_throttle.gif)
 
-[출처: 'System Design Basics: Debounce Vs Throttle'](https://www.youtube.com/watch?v=TBIEArmPywU)
+📌 출처: ['System Design Basics: Debounce Vs Throttle'](https://www.youtube.com/watch?v=TBIEArmPywU)
