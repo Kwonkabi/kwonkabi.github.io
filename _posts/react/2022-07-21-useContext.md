@@ -198,7 +198,7 @@ props로 받아온 isDark가 true면 배경색은 검정, 버튼 텍스트는 'L
 
 #### 3.2. context와 useContext()
 
-우선 context를 만들어주자. 리액트 context를 만들기 위해서는 우선 `createContext를` import 해주어야 한다.
+우선 context를 만들어주자. 리액트 context를 만들기 위해서는 우선 `createContext`를 import 해주어야 한다.
 
 ```js
 import { createContext } from "react";
