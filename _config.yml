@@ -20,7 +20,7 @@ title: "kabiLog"
 title_separator: "|"
 subtitle: "I can do this all day."
 name: "kwonkabi"
-description: "후론트라라 후론트라라"
+description: ""
 url: "https://kwonkabi.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,8 +103,8 @@ analytics:
 author:
   name: "kwonkabi"
   avatar: "/assets/images/kabi_memoji.jpg"
-  bio: "후론트라라~ 후론트라라~"
-  location: "South Korea"
+  bio: "밥 먹고; 커피 마시고; 코딩하고; 책 읽습니다;"
+  # location: "South Korea"
   email:
   links:
     - label: "Email"
